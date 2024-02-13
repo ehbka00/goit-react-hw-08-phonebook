@@ -60,7 +60,7 @@ const Register = () => {
 
   return (
     <Flex align="center" justify="center" h="90vh">
-      <Box bg="white" p={6} rounded="md" w={500}>
+      <Box bg="#e3cbb7" p={6} rounded="md" w={500}>
         <form onSubmit={handleOnSubmit}>
           <VStack spacing={4} align="flex-start">
             <FormControl isRequired isInvalid={isError}>

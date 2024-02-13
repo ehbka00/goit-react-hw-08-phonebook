@@ -11,7 +11,7 @@ const ContactsPage = () => {
       alignItems={'center'}
       mt={75}
     >
-      <Box bgColor={'white'} borderRadius={15} pb={7}>
+      <Box bg="#e3cbb7" borderRadius={15} pb={7}>
         <ContactsForm />
         <Filter />
         <ContactsList />
