@@ -3,14 +3,14 @@ import { useDispatch } from 'react-redux';
 import { fetchContacts, deleteContact } from '../../redux/contacts/operations';
 import { useEffect } from 'react';
 import {
-  selectContacts,
+  selectFilteredContacts,
   selectIsLoading,
   selectError,
 } from '../../redux/contacts/selectors';
 import { Button, WrapItem, Wrap } from '@chakra-ui/react';
 
 const ContactList = () => {
-  let contacts = useSelector(selectContacts);
+  let contacts = useSelector(selectFilteredContacts);
   const isLoading = useSelector(selectIsLoading);
   const error = useSelector(selectError);
   const dispatch = useDispatch();
