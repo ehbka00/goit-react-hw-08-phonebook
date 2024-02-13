@@ -1,0 +1,11 @@
+.wrapper {
+    width: 375px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wrapper p {
+    font-size: 1.2em;
+    padding-right: 40px;
+}
